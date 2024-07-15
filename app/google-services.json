@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "330261905819",
+    "project_id": "handy-hub-93c8f",
+    "storage_bucket": "handy-hub-93c8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330261905819:android:0cf54ad3e12b8bf083e13e",
+        "android_client_info": {
+          "package_name": "com.example.handyhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArdHFXRSNT9pFGzD8dMdzlEl482TUJ23E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
