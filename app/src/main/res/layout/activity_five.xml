@@ -51,19 +51,6 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextText4"
         app:layout_constraintVertical_bias="0.144" />
 
-    <EditText
-        android:id="@+id/editTextText11"
-        android:layout_width="387dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="12dp"
-        android:ems="10"
-        android:hint="Phone number"
-        android:inputType="text"
-        app:layout_constraintBottom_toTopOf="@+id/editTextText4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText5"
-        app:layout_constraintVertical_bias="0.465" />
-
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
@@ -90,6 +77,18 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextText6"
         app:layout_constraintVertical_bias="1.0" />
 
+    <EditText
+        android:id="@+id/editTextText11"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Phone number"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText5" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

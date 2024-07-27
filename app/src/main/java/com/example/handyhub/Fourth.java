@@ -8,9 +8,6 @@ import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class Fourth extends AppCompatActivity {
     Button b1, b2, b3;
@@ -20,8 +17,8 @@ public class Fourth extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_fourth);
-        b1 = (Button) findViewById(R.id.button4);
-        b2 = (Button) findViewById(R.id.button5);
+        b1 = (Button) findViewById(R.id.button39);
+        b2 = (Button) findViewById(R.id.button38);
         b3 = (Button) findViewById(R.id.button11);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override

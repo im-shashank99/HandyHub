@@ -21,7 +21,7 @@ public class Third extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_third);
         b1 = (Button) findViewById(R.id.button8);
-        b2 = (Button) findViewById(R.id.button7);
+        b2 = (Button) findViewById(R.id.button3);
         b3 = (Button) findViewById(R.id.button9);
         b4 = (Button) findViewById(R.id.button10);
         b1.setOnClickListener(new View.OnClickListener() {

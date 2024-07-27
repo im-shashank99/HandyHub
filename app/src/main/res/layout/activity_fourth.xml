@@ -8,7 +8,7 @@
     tools:context=".Fourth">
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button39"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Online"
@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.351" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button38"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Offline"
@@ -28,7 +28,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button39"
         app:layout_constraintVertical_bias="0.415" />
 
     <Button
@@ -41,6 +41,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button38"
         app:layout_constraintVertical_bias="0.973" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/aa"
+    tools:context=".Fourteen">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:id="@+id/button46"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Einstien"
+        android:id="@+id/button47"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alan Turing"
+        android:id="@+id/button48"
+        android:layout_above="@+id/button46"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Benjamin Franklin"
+        android:id="@+id/button49"
+        android:layout_below="@+id/button47"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alfred Nobel"
+        android:id="@+id/button50"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="153dp"
+        android:layout_height="172dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/z" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="155dp"
+        android:layout_height="174dp"
+        android:layout_alignBottom="@+id/button47"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/n" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="156dp"
+        android:layout_height="172dp"
+        android:layout_above="@+id/button48"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ac" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="151dp"
+        android:layout_height="188dp"
+        android:layout_alignStart="@+id/button49"
+        android:layout_alignLeft="@+id/button49"
+        android:layout_alignBottom="@+id/button48"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:src="@drawable/ab" />
+
+</RelativeLayout>
